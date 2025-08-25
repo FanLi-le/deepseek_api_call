@@ -3,8 +3,8 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI, APIError
 
-C = "deepseek-chat" # DeepSeek V3.1 非思考模式
-R = "deepseek-reasoner" # DeepSeek V3.1 思考模式
+c = "deepseek-chat" # DeepSeek V3.1 非思考模式
+r = "deepseek-reasoner" # DeepSeek V3.1 思考模式
 
 PROMPT = "你是一个友好的人工智能助手"
 
@@ -12,12 +12,12 @@ def get_user_config():
 
     print("\n---配置开始---\n")
 
-    model_choice = input("请选择你要使用的模型(C/R, 默认使用C): ")
+    model_choice = input("请选择你要使用的模型(c/r, 默认使用c): ")
 
-    if model_choice == "R":
-        model = R
+    if model_choice == "r":
+        model = r
     else:
-        model = C
+        model = c
 
     stream_choice = input("是否启用流式输出(y/n, 默认为流式输出): ")
 

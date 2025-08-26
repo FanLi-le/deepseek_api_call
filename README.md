@@ -1,7 +1,6 @@
 # deepseek_api_call
 
 <!-- 徽章 -->
-[![Build Status](https://img.shields.io/travis/user/repo.svg)](https://travis-ci.org/user/repo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/your-package.svg)](https://badge.fury.io/js/your-package)
 
